@@ -76,3 +76,27 @@
       outline:0;
       border:1px solid rgba(0,0,0,0.1);
     }
+
+    .clear {
+      /*border: 1px solid red;*/
+      margin: 20px 0 0;
+      padding: 0;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+    }
+
+    .clear li {
+      list-style: none;
+    }
+
+    .clear li button {
+      background-color: #dadada;
+      padding: 12px 8px;
+      border: 1px solid #999;
+      flex: 0 0 auto;
+    }
