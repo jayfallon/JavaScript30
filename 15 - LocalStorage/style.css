@@ -88,15 +88,18 @@
       display: flex;
       justify-content: space-between;
       align-items: stretch;
+      align-content: stretch;
     }
 
     .clear li {
+      margin: 0;
+      padding: 0;
       list-style: none;
+      flex: 0 0 auto;
     }
 
     .clear li button {
       background-color: #dadada;
       padding: 12px 8px;
       border: 1px solid #999;
-      flex: 0 0 auto;
     }
